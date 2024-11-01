@@ -1,1 +1,5 @@
 # OIBSIP_DS_3
+
+For this task, I built a machine learning model to predict car prices using a dataset of features such as age, fuel type, seller type, transmission, and kilometers driven. After preprocessing the data by removing unnecessary columns and converting categorical variables into dummy variables, I split the dataset into training and testing sets. Using a Random Forest Regressor with 100 estimators, I trained the model on the training data and evaluated its performance on the test data, achieving reliable predictions.
+
+To measure the model's effectiveness, I calculated the Root Mean Squared Error (RMSE) and R-squared (R²) score, which demonstrated the model's accuracy. Additionally, I visualized the relationship between actual and predicted prices with a scatter plot, including a trend line to better understand model performance. This task provided hands-on experience in using ensemble methods for regression tasks and highlighted the importance of feature engineering in improving predictive accuracy.
